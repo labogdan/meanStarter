@@ -10,7 +10,11 @@ function routes($routeProvider, $locationProvider) {
 		})
 		.when('/nerds', {
 			templateUrl : 'views/nerd.html',
-			controller : 'NerdController'
+			controller : 'NerdController as foo'
+		})
+		.when('/test', {
+			templateUrl : 'views/test.html',
+			controller : 'TestController as myTest'
 		});
 	$locationProvider.html5Mode(true);
 }
