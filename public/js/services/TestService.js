@@ -10,4 +10,5 @@ function SimpleService () {
 				}];
 			}
 	};
+	return service;
 }

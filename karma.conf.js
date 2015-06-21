@@ -15,6 +15,15 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'libs/angular/angular.min.js',
+      'libs/angular-route/angular-route.min.js',
+      'js/appRoutes.js',
+      'js/app.js',
+      'js/controllers/MainCtrl.js',
+      'js/controllers/NerdCtrl.js',
+      'js/controllers/TestCtrl.js',
+      'js/services/NerdService.js',
+      'js/services/TestService.js',
       'public/tests/*.js'
     ],
 
